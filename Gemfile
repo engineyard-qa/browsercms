@@ -4,6 +4,8 @@ source 'http://rubygems.org'
 gemspec
 
 gem "mysql2"
+gem "pg"
+gem "puma"
 
 gem 'yard', :groups=>[:development, :test]
 gem 'bluecloth', :groups=>[:development, :test] # For YARD
